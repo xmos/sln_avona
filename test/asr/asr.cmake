@@ -57,7 +57,8 @@ elseif(${TEST_ASR} STREQUAL "CYBERON")
     set(APP_SOURCES
         ${APP_SOURCES}
     )
-    set(MODEL_FILE ${FFD_SRC_ROOT}/model/english_usa/Hello_XMOS_pack_WithTxt.bin.Enc.NibbleSwap)
+    #set(MODEL_FILE ${FFD_SRC_ROOT}/model/english_usa/Hello_XMOS_pack_WithTxt.bin.Enc.NibbleSwap)
+    set(MODEL_FILE ${FFD_SRC_ROOT}/model/english_usa/Testing_level3_pack_WithTxt.bin.Enc.NibbleSwap)
     set(TEST_ASR_LIBRARY_ID 1)
     set(TEST_ASR_NAME test_asr_cyberon)
     set(ASR_FLAG ASR_CYBERON=1)

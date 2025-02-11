@@ -1,7 +1,8 @@
 set(FFD_SRC_ROOT ${CMAKE_CURRENT_LIST_DIR})
 
 set(MODEL_LANGUAGE "english_usa")
-set(CYBERON_COMMAND_NET_FILE "${FFD_SRC_ROOT}/model/english_usa/Hello_XMOS_pack_WithTxt.bin.Enc.NibbleSwap")
+#set(CYBERON_COMMAND_NET_FILE "${FFD_SRC_ROOT}/model/english_usa/Hello_XMOS_pack_WithTxt.bin.Enc.NibbleSwap")
+set(CYBERON_COMMAND_NET_FILE "${FFD_SRC_ROOT}/model/english_usa/Testing_level3_pack_WithTxt.bin.Enc.NibbleSwap")
 
 #**********************
 # Gather Sources
